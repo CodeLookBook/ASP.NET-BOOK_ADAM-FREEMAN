@@ -1,0 +1,11 @@
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\bin\Debug\netcoreapp2.0\PARTY-INVITES.deps.json
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\bin\Debug\netcoreapp2.0\PARTY-INVITES.runtimeconfig.json
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\bin\Debug\netcoreapp2.0\PARTY-INVITES.runtimeconfig.dev.json
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\bin\Debug\netcoreapp2.0\PARTY-INVITES.dll
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\bin\Debug\netcoreapp2.0\PARTY-INVITES.pdb
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.csprojResolveAssemblyReference.cache
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.csproj.CoreCompileInputs.cache
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.AssemblyInfoInputs.cache
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.AssemblyInfo.cs
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.dll
+C:\Users\mirtg_000\source\repos\PARTY-INVITES\PARTY-INVITES\obj\Debug\netcoreapp2.0\PARTY-INVITES.pdb
