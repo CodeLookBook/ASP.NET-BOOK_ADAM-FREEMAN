@@ -13124,11 +13124,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\PARTY-INVITES\\PARTY-INVITES\\PARTY-INVITES.csproj",
-      "projectName": "PARTY-INVITES",
-      "projectPath": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\PARTY-INVITES\\PARTY-INVITES\\PARTY-INVITES.csproj",
+      "projectUniqueName": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectName": "LanguageFeatures",
+      "projectPath": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "packagesPath": "C:\\Users\\mirtg_000\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\PARTY-INVITES\\PARTY-INVITES\\obj\\",
+      "outputPath": "D:\\C# Projects\\ASP.NET-BOOK_ADAM-FREEMAN\\LanguageFeatures\\LanguageFeatures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

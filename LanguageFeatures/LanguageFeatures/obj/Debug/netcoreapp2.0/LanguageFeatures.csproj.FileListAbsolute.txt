@@ -1,0 +1,11 @@
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\bin\Debug\netcoreapp2.0\LanguageFeatures.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\bin\Debug\netcoreapp2.0\LanguageFeatures.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\bin\Debug\netcoreapp2.0\LanguageFeatures.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\bin\Debug\netcoreapp2.0\LanguageFeatures.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.csprojResolveAssemblyReference.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.csproj.CoreCompileInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.AssemblyInfoInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\bin\Debug\netcoreapp2.0\LanguageFeatures.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\LanguageFeatures\LanguageFeatures\obj\Debug\netcoreapp2.0\LanguageFeatures.pdb
