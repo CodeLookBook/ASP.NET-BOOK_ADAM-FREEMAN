@@ -1,0 +1,13 @@
+﻿{
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "2.0.0",
+      "type": "platform"
+    },
+    "Microsoft.AspNetCore.Diagnostics": "2.0.0",
+    "Microsoft.AspNetCore.Server.IISIntegration": "2.0.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "2.0.0",
+    "Microsoft.Extensions.Logging.Console": "2.0.0",
+    "Microsoft.AspNetCore.Mvc": "2.0.0" 
+  }
+}
