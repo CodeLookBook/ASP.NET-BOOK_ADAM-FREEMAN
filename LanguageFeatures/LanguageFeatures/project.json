@@ -8,6 +8,7 @@
     "Microsoft.AspNetCore.Server.IISintegration": "2.0.0",
     "Microsoft.AspNetCore.Server.Kestrel": "2.0.0",
     "Microsoft.Extensions.Logging.Console":  "2.0.0",
-    "Microsoft.AspNetCore.Mvc": "2.0.0"
+    "Microsoft.AspNetCore.Mvc": "2.0.0",
+    "System.Net.Http": "4.3.3"
   }
 }

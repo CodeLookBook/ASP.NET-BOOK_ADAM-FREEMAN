@@ -9,15 +9,27 @@ namespace LanguageFeatures.Controllers
 {
     public class HomeController : Controller
     {
+        //public IActionResult Index() => View(Product.GetProducts().Select(p => p?.Name));
+
+        /*
         public IActionResult Index()
         {
-            List<string> results = new List<string>();
-            foreach (Product p in Product.GetProducts())
-            {
-                results.Add(string.Format("Name: {0}, Price: {1}",
-                        p?.Name, p?.Price));
-            }
-            return View(results);
+            var products = new[] {
+                new { Name = "Kayak"        , Price = 275M   },
+                new { Name = "Lifejacet"    , Price = 48.95M },
+                new { Name = "Soccer boll"  , Price = 19.50M },
+                new { Name = "Corner flag"  , Price = 34.95M },
+            };
+
+            return View(products.Select(p => p.GetType()?.Name));
+        }
+        */
+
+        public async Task<IActionResult> Index()
+        {
+            long? length = await MyAsyncMethods.GetPageLength();
+
+            return View(new string[] { $"Length: {length}" });
         }
     }
 }
