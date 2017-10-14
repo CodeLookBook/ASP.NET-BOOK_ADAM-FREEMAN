@@ -1,0 +1,11 @@
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\bin\Debug\netcoreapp2.0\Razor.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\bin\Debug\netcoreapp2.0\Razor.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\bin\Debug\netcoreapp2.0\Razor.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\bin\Debug\netcoreapp2.0\Razor.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.csprojResolveAssemblyReference.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.csproj.CoreCompileInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.AssemblyInfoInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\bin\Debug\netcoreapp2.0\Razor.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\Razor\Razor\obj\Debug\netcoreapp2.0\Razor.pdb
