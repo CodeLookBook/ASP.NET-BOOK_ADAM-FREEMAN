@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Moq;
 using WorkingWithVisualStudio.Controllers;
 using WorkingWithVisualStudio.Models;
 using Xunit;
@@ -42,11 +43,15 @@ namespace WorkingWithVisualStudio.Tests
             }
         }
 
+        [Fact]
         public void RepositoryPropertyCalledOnce()
         {
             #region Организация
-            var repo       = new PropertyOnceFakeRepository();
-            var controller = new HomeController() { Repository = repo };
+            var mock       = new Mock<IRepository>();
+
+            mock.SetupGet(m => m.Products).Returns(new[] { new Product() { Name = "P1", Price = 100 } });
+
+            var controller = new HomeController() { Repository = mock.Object };
             #endregion
 
             #region Действие
@@ -54,7 +59,7 @@ namespace WorkingWithVisualStudio.Tests
             #endregion
 
             #region Утверждение
-            Assert.Equal(1, repo.PropertyConter);
+            mock.VerifyGet(m => m.Products, Times.Once);
             #endregion
         }
         #endregion
@@ -66,11 +71,13 @@ namespace WorkingWithVisualStudio.Tests
         public void IndexActionModelIsComplete(Product [] products)
         {
             // Организация
-            var controller = new HomeController();
+            var mock = new Mock<IRepository>();
 
-            controller.Repository = new ModelCompleteFakeRepository()
+            mock.SetupGet(m => m.Products).Returns(products);
+
+            var controller = new HomeController()
             {
-                Products = products
+                Repository = mock.Object
             };
 
             // Действие
