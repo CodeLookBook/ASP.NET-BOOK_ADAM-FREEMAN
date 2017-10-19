@@ -17,7 +17,7 @@ namespace SportsStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IProductRepository, FakeProductRepository>();
-            services.AddMvcCore();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,9 +32,15 @@ namespace SportsStore
                 app.UseDeveloperExceptionPage();
             }
 
+            /*
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
+            });
+            */
+
+            app.UseMvc(routes => {
+                routes.MapRoute(name: "default", template: "{controller=Product}/{action=List}/{id?}");
             });
         }
     }
