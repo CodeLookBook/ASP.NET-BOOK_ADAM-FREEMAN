@@ -1,0 +1,17 @@
+[
+  {
+    "outputFileName": "wwwroot\\css\\bundle.min.css",
+    "inputFiles": [
+      "wwwroot\\css\\first.css",
+      "wwwroot\\css\\second.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot\\js\\bundle.min.js",
+    "inputFiles": [
+      "wwwroot\\js\\forth.js",
+      "wwwroot\\js\\third.js"
+    ],
+    "sourceMap": true
+  }
+]

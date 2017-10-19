@@ -1,0 +1,11 @@
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.csproj.CoreCompileInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.AssemblyInfoInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.csprojResolveAssemblyReference.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.csproj.CoreCompileInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.AssemblyInfoInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.Tests.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\WorkingWithVisualStudio\test\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
