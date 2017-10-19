@@ -1,0 +1,10 @@
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\bin\Debug\netcoreapp2.0\SportsStore.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\bin\Debug\netcoreapp2.0\SportsStore.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\bin\Debug\netcoreapp2.0\SportsStore.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\bin\Debug\netcoreapp2.0\SportsStore.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\bin\Debug\netcoreapp2.0\SportsStore.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\obj\Debug\netcoreapp2.0\SportsStore.csproj.CoreCompileInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\obj\Debug\netcoreapp2.0\SportsStore.AssemblyInfoInputs.cache
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\obj\Debug\netcoreapp2.0\SportsStore.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\obj\Debug\netcoreapp2.0\SportsStore.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore\obj\Debug\netcoreapp2.0\SportsStore.pdb
