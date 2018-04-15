@@ -28,12 +28,17 @@ namespace SportsStore.Controllers
                 .Take(this.PageSize);
 
             PagingInfo info = new PagingInfo {
-                CurrentPage  = page,
+                CurrentPage = page,
                 ItemsPerPage = this.PageSize,
-                TotalItems   = products.Count(),
-            }; 
+                TotalItems = category == null ?
+                    this.Repository.Products.Count() :
+                    this.Repository.Products.Where(p => p.Category == category)
+                        .Count()
+            };
 
-            return View(new ProductsListViewModel(products, info, category));
+            string currentCategory = category;
+
+            return View(new ProductsListViewModel(products, info, currentCategory));
         }
     }
 }
