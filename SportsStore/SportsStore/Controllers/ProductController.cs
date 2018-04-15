@@ -1,29 +1,39 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using SportsStore.Models;
+using SportsStore.Models.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using SportsStore.Models;
 
 namespace SportsStore.Controllers
 {
     public class ProductController : Controller
     {
-        #region PROPERTIES
-        // PRIVATE
-        private IProductRepository repository;
-        #endregion
+        public IProductRepository Repository { get; set; }
+        public int PageSize = 4;
 
-
-        #region CONSTRUCTORS
         public ProductController(IProductRepository repository)
         {
-            this.repository = repository;
+            this.Repository = repository;
         }
-        #endregion
 
-        #region ACTIONS
-        public IActionResult List() => View(this.repository.Products);
-        #endregion
+        public IActionResult List(string category, int page = 1)
+        {
+            IEnumerable<Product> products = this.Repository
+                .Products
+                .Where(p => category == null || p.Category == category)
+                .OrderBy(p => p.ProductID)
+                .Skip((page - 1) * this.PageSize)
+                .Take(this.PageSize);
+
+            PagingInfo info = new PagingInfo {
+                CurrentPage  = page,
+                ItemsPerPage = this.PageSize,
+                TotalItems   = products.Count(),
+            }; 
+
+            return View(new ProductsListViewModel(products, info, category));
+        }
     }
 }

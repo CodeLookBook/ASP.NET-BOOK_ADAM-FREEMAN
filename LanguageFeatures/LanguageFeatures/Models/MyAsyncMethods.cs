@@ -10,9 +10,10 @@ namespace LanguageFeatures.Models
     {
         public async static Task<long?> GetPageLength()
         {
-            HttpClient client = new HttpClient();
-            var httpMessage = await client.GetAsync("http://apress.com");
-            return httpMessage.Content.Headers.ContentLength;
+            var client   = new HttpClient();
+            var response = await client.GetAsync("http://apress.com");
+
+            return response.Content.Headers.ContentLength;
         }
     }
 }

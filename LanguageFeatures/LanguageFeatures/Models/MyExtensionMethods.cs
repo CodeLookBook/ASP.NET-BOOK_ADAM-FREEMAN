@@ -11,6 +11,7 @@ namespace LanguageFeatures.Models
         public static decimal TotalPrices(this ShoppingCart cartParam)
         {
             decimal total = 0;
+
             foreach (Product product in cartParam.Products)
             {
                 total += product?.Price ?? 0;
@@ -19,7 +20,6 @@ namespace LanguageFeatures.Models
             return total;
         }
         */
-
         public static decimal TotalPrices(this IEnumerable<Product> products)
         {
             decimal total = 0;
@@ -32,24 +32,35 @@ namespace LanguageFeatures.Models
             return total;
         }
 
-        public static IEnumerable<Product> FilterByPrice(this IEnumerable<Product> productEnum, decimal minimumPrice)
+        public static IEnumerable<Product> FilterByPrice(this IEnumerable<Product> products, decimal minimumPrice)
         {
-            foreach (Product product in productEnum)
+            foreach (var product in products)
             {
-                if((product?.Price ?? 0) >= minimumPrice)
+                if( (product?.Price ?? 0) >= minimumPrice)
                 {
                     yield return product;
                 }
             }
         }
 
-        public static IEnumerable<Product> Filter(this IEnumerable<Product> products, Func<Product, bool> selector)
+        public static IEnumerable<Product> FilterByName(this IEnumerable<Product> products, char firstLetter)
         {
-            foreach (Product product in products)
+            foreach (Product prod in products)
             {
-                if (selector(product))
+                if (prod?.Name?[0] == firstLetter)
                 {
-                    yield return product;
+                    yield return prod;
+                }
+            }
+        }
+
+        public static IEnumerable<Product> Filter(this IEnumerable<Product> productEnum, Func<Product, bool> selector)
+        {
+            foreach (Product prod in productEnum)
+            {
+                if (selector(prod))
+                {
+                    yield return prod;
                 }
             }
         }

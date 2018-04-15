@@ -7,28 +7,23 @@ namespace LanguageFeatures.Models
 {
     public class Product
     {
+        public Product(bool stock = true)
+        {
+            this.InStock = stock;
+        }
+
         public string   Name     { get; set; }
         public string   Category { get; set; } = "Watersports";
         public decimal? Price    { get; set; }
         public Product  Related  { get; set; }
-        public bool     InStock  { get;      } = true;
+        public bool     InStock  { get;      }
 
-        public bool     NameBeginWithS => this.Name?[0] == 'S';
+        public bool     NameBeginsWithS => Name?[0] == 'S';
 
         public static Product[] GetProducts()
         {
-            Product kayak = new Product
-            {
-                Name     = "Kayak",
-                Category = "Water Craft",
-                Price    = 275M
-            };
-
-            Product lifejacket = new Product
-            {
-                Name    = "Lifejacket",
-                Price   = 48.95M
-            };
+            Product kayak      = new Product         { Name = "Kayak"     , Category = "Water Craft", Price = 275M   };
+            Product lifejacket = new Product (false) { Name = "Lifejacket"                          , Price = 48.95M };
 
             kayak.Related = lifejacket;
 

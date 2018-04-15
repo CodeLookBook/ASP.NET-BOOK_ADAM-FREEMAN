@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace LanguageFeatures.Models
 {
-    public class ShoppingCart: IEnumerable<Product>
+    public class ShoppingCart : IEnumerable<Product>
     {
         public IEnumerable<Product> Products { get; set; }
 
         public IEnumerator<Product> GetEnumerator()
         {
-            return Products.GetEnumerator();
+            return this.Products.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return Products.GetEnumerator();
+            return this.GetEnumerator();
         }
     }
 }

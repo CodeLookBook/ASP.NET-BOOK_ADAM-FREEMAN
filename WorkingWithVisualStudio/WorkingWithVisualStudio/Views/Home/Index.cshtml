@@ -1,34 +1,39 @@
 ﻿@model IEnumerable<WorkingWithVisualStudio.Models.Product>
-
 @{
     Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Workin with Visual Studio</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Working with Visual Studio</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
-<body class="container-fluid">
-    
+<body class="p-1">
     <h3 class="text-center">Products</h3>
-    <p>Request Time: @DateTime.Now.ToString("HH:mm: ss") </p> 
-    <table class="table table-bordered table-striped">
+    <p class="table table-bordered table-striped">Request Time: @DateTime.Now.ToString("HH:mm:ss")</p>
+    <table>
         <thead>
-            <tr><td>Narne</td><td>Price</td></tr>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+            </tr>
         </thead>
         <tbody>
-            @foreach (var p in Model)
+            @foreach (var product in Model)
             {
-                <tr> <td>@p.Name</td> <td>@($"{p.Price:C2}")</td> </tr>
+                <tr>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                </tr>
             }
         </tbody>
     </table>
-    <div class="text-center">
-        <a class="btn btn-primary" asp-action="AddProduct">Add new product</a>
+    <div class="text-center">        
+        <a class="btn btn-primary" asp-action="AddProduct">
+            Add New Product        
+        </a>   
     </div>
 </body>
 </html>

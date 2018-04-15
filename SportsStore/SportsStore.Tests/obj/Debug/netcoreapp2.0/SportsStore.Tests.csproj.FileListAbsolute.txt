@@ -3,3 +3,15 @@ D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug
 D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.csproj.CoreCompileInputs.cache
 D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.AssemblyInfoInputs.cache
 D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.AssemblyInfo.cs
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.Tests.deps.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.Tests.runtimeconfig.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.Tests.runtimeconfig.dev.json
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.Tests.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.Tests.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp2.0\SportsStore.pdb
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.csproj.CopyComplete
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.dll
+D:\C# Projects\ASP.NET-BOOK_ADAM-FREEMAN\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp2.0\SportsStore.Tests.pdb

@@ -1,17 +1,23 @@
-﻿@model Product
+﻿@model Product[]
 
 @{
     ViewBag.Title = "Product Name";
 }
 
-<!DOCTYPE html>
+<table>
+    <thead>       
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>    
+    </thead>    
+    <tbody>
+        @foreach (Product product in Model) {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+            </tr>
+        }
+    </tbody> 
+</table>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ViewBag.Title</title>
-</head>
-<body>
-    Product Name: @Model.Name
-</body>
-</html>

@@ -1,8 +1,9 @@
-﻿hЗ {
-    font-size: 18px;
+﻿h3 {
+    font-size: 18pt;
     font-family: sans-serif;
 }
-tаblе, td {
+
+table, td {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px;
