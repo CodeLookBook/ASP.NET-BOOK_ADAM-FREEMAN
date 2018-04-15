@@ -19,6 +19,8 @@ namespace SportsStore.Components
 
         public IViewComponentResult Invoke()
         {
+            ViewBag.SelectedCategory = this.RouteData?.Values["category"];
+
             return View(this.repository
                 .Products
                 .Select(x => x.Category)
