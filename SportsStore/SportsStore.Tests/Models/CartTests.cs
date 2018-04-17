@@ -76,5 +76,27 @@ namespace SportsStore.Tests.Models
             Assert.Equal(0, target.Lines.Where(l => l.Product == p2).Count());
             Assert.Equal(2, target.Lines.Count());
         }
+
+        [Fact]
+        public void ComputeTotalValue_CanCalculateCartTotalValue()
+        {
+            // Arrange - create some test products
+            Product p1 = new Product { ProductID = 1, Name = "P1", Price = 100M };
+            Product p2 = new Product { ProductID = 2, Name = "P2", Price = 50M };
+
+            // Arrange - create new cart
+            Cart target = new Cart();
+
+            // Arrange - add some products to the cart
+            target.AddItem(p1, 1);
+            target.AddItem(p2, 1);
+            target.AddItem(p1, 3);
+
+            // Act
+            decimal result = target.ComputeTotalValue();
+
+            // Assert
+            Assert.Equal(450M, result);
+        }
     }
 }
