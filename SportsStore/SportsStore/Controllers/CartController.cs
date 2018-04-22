@@ -18,7 +18,7 @@ namespace SportsStore.Controllers
             this.repository = repository;
         }
 
-        public RedirectToActionResult AssToCart(int productId, string returnUrl)
+        public RedirectToActionResult AddToCart(int productId, string returnUrl)
         {
             Product product = this.repository
                 .Products
@@ -29,6 +29,24 @@ namespace SportsStore.Controllers
                 Cart cart = this.GetCart();
 
                 cart.AddItem(product, 1);
+
+                this.SaveCart(cart);
+            }
+
+            return RedirectToAction("Index", new { returnUrl });
+        }
+
+        public RedirectToActionResult RemoveFromCart(int productId, string returnUrl)
+        {
+            Product product = this.repository
+                .Products
+                .FirstOrDefault(p => p.ProductID == productId);
+
+            if (product != null)
+            {
+                Cart cart = this.GetCart();
+
+                cart.RemoveLine(product);
 
                 this.SaveCart(cart);
             }
